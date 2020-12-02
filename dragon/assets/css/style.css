@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: skyblue;
+  font-family: "Work Sams";
+  font-weight: 300;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+     background: dodgerblue;
+  
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: none;
+  padding: 10px  15px 10px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 80px;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+footer {
+  display: block;
+}
+
+
+
