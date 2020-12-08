@@ -1,8 +1,9 @@
 body {
   margin: 0;
   background-color: skyblue;
-  font-family: "Work Sams";
-  font-weight: 300;
+  font-family: sans-serif;
+ 
+  
 }
 .center {
   display: block;
@@ -45,7 +46,10 @@ header::after {
 }
 
 nav {
-  float: right;
+  font-size:35px;
+  width:100%;
+  overflow: auto;
+  background-color: #FFF;
 }
 
 nav ul {
@@ -69,4 +73,6 @@ table, th, td {
 footer {
   display: block;
 }
+
+
 

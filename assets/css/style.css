@@ -2,9 +2,13 @@ body {
   background-image: linear-gradient(pink, grey);
 }
 
+h2 { color: Purple;
+}
+
 p {
     color: #FFFFFF;
 }
+
 nav {
   color: #db9833;
 }
